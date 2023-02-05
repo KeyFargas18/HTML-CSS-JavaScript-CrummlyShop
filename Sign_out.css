@@ -21,7 +21,15 @@ html{
     --lg: 1.8rem;
 }
 
+.inactive{
+    display: none;
+}
+
 .desktop-menu {
+    position: absolute;
+    background-color: var(--while);
+    top: 74px;
+    right: 60px;
     width: 120px;
     height: auto;
     border: 1px solid var(--ver-light-pink);
