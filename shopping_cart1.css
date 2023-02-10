@@ -21,17 +21,18 @@ html{
     --lg: 1.8rem;
 }
 
-.my-order{
+.inactive{
+    display: none;
+}
+
+.my-order-container {
+    background-color: var(--while);
     width: 360px;
     height: 100vh;
     padding: 24px;
     position: absolute;
     right: 0;
     overflow: scroll;
-}
-
-.my-order-container {
-    width: 30rem;
 }
 
 .title-container {
@@ -105,7 +106,7 @@ html{
 }
 
 @media (max-width: 640px) {
-    .product-detail {
+    .my-order-container {
         width: 100%;
     }
 }

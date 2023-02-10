@@ -21,6 +21,7 @@ html{
     --lg: 1.8rem;
 }
 
+
 .primary-button{
     background-color: var(--rosa);
     border-radius: 0.8rem;
@@ -67,6 +68,27 @@ html{
     height: 360px;
     object-fit: cover;
     border-radius: 0 0 20px 20px;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+}
+
+.points > li {
+    background: var(--very-light-pink);
+    width: 8px;
+    height: 8px;
+    margin: 8px 6px;
+    border-radius: 50%;
+    list-style-type: none;
+    cursor: pointer;
+}
+.points > .active {
+    background: var(--rosa);
+}
+.points > li:hover {
+    background: var(--rosa);
 }
 
 .product-info{

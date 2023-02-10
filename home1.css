@@ -27,6 +27,7 @@ html{
     gap: 26px;
     flex-wrap: wrap;
     place-content: center;
+    margin-top: 20px;
 }
 
 .product-card{

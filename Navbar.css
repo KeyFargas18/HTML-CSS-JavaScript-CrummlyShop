@@ -19,10 +19,6 @@ html{
     --sm: 1.4rem;
     --md: 1.6rem;
     --lg: 1.8rem;
-}
-
-.menu {
-    display: none;
 } 
 
 nav {
@@ -30,6 +26,14 @@ nav {
     justify-content: space-between;
     padding: 0 24px;
     border-bottom: 1px solid var(--very-light-pink);
+}
+
+.inactive{
+  display: none;
+}
+
+.menu{
+  display: none;
 }
 
 .logo {
@@ -78,6 +82,7 @@ nav {
 
 .navbar-shopping-cart {
   position: relative;
+  cursor: pointer;
 }
 
 .navbar-shopping-cart div {
@@ -95,6 +100,13 @@ nav {
   align-items: center;
 }
 
+.email-nav img{
+  margin-left: 0;
+  margin-right: 2rem;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
 @media (max-width: 640px) {
   .menu {
     display: block;
@@ -105,11 +117,7 @@ nav {
   .navbar-email {
     display: none;
   }
-}
-
-.email-nav img{
-  margin-left: 0;
-  margin-right: 2rem;
-  transform: rotate(90deg);
-  cursor: pointer;
+  .email-nav img{
+    display: none;
+  }
 }

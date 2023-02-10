@@ -10,11 +10,14 @@
     <title>Crummly Shop: tienda de accesorios</title>
     <link rel="stylesheet" href="./Navbar.css">
     <link rel="stylesheet" href="./Sign_out.css">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./shopping_cart1.css">
+    <link rel="stylesheet" href="./home1.css">
 </head>
 <body>
     <nav>
         <img class="menu" src="./icon/icon_menu.svg" alt="menu">
-
+      
         <div class="navbar-left">
             <img class="logo" src="./logos/logo-crummly.png" alt="logo">
             <ul>
@@ -65,7 +68,143 @@
                 </li>
             </ul>
         </div>
+
+        <div class="mobile-menu inactive">
+            <ul>
+                <li>
+                    <a href="/">CATEGORIES</a>
+                </li>
+                <li>
+                    <a href="/">All</a>
+                </li>
+                <li>
+                    <a href="/">Necklaces</a>
+                </li>
+                <li>
+                    <a href="/">Bracelet</a>
+                </li>
+                <li>
+                    <a href="/">Ring</a>
+                </li>
+                <li>
+                    <a href="/">Earrings</a>
+                </li>
+                <li>
+                    <a href="/">Accessories</a>
+                </li>
+            </ul>
+    
+            <ul>
+                <li>
+                    <a href="/">My orders</a>
+                </li>
+                <li>
+                    <a href="/">My account</a>
+                </li>
+            </ul>
+
+            <div class="info">
+                <ul>
+                    <li>
+                        <a href="/" class="email">keylinfargas@example.com</a>
+                    </li>
+                    <li>
+                        <a href="/" class="sign-out">Sign out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </nav>
+
+    <aside class="my-order-container inactive">
+        <div class="title-container">
+            <img src="./icon/flechita.svg" alt="arrow">
+            <h1 class="title">My order</h1>
+        </div>
+
+        <div class="my-order-content">
+                
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="./img/blanca.jpeg" alt="blanca nieves">
+                    </figure>
+                    <p>Collar blanca nieves ❤️</p>
+                    <p>C$200.00</p>
+                </div>
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="./img/Anillos.jpeg" alt="Anillos">
+                    </figure>
+                    <p>Anillos de plata 925 💍</p>
+                    <p>C$360.00</p>
+                </div>
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="./img/cruz.jpeg" alt="cruz">
+                    </figure>
+                    <p>Layering fe 🤍✨</p>
+                    <p>C$280.00</p>
+                </div>
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="./img/serpiente.jpeg" alt="serpiente">
+                    </figure>
+                    <p>Aretes de serpiente 🐍✨</p>
+                    <p>C$150.00</p>
+                </div>
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="./img/astr.jpeg" alt="astronauta">
+                    </figure>
+                    <p>Par de cadenas astronauta🌙✨</p>
+                    <p>C$260.00</p>
+                </div>
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="./img/anillosacero.jpeg" alt="anillosacero">
+                    </figure>
+                    <p>Anillos de acero✨</p>
+                    <p>C$160.00</p>
+                </div>
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="./img/oso.jpeg" alt="oso">
+                    </figure>
+                    <p>Oso🧸✨</p>
+                    <p>C$150.00</p>
+                </div>
+
+                <div class="order">
+                    <p>
+                        <span>Total</span>
+                    </p>
+                    <p>C$560.00</p>
+            </div>
+
+            <button class="primary-button">
+                Checkout
+            </button>
+        </div>
+
+    </aside>
+
+    <section class="main-container">
+        <div class="cards-container">
+            <!-- <div class="product-card">
+                <img src="./img/a luna.jpeg" alt="luna">
+                <div class="product-info">
+                    <div>
+                        <p>C$280</p>
+                        <p>Aretes de luna 🌙✨</p>
+                    </div>
+                    <figure>
+                        <img src="./icon/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div> -->
+        </div> 
+            
+    </section>
 
     <script src="./main.js"></script>
 </body>
