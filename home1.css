@@ -41,26 +41,26 @@ html{
     object-fit: cover;
 }
 
-.product-info{
+.product-card .product-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 12px;
 }
 
-.product-info figure img{
+.product-card .product-info figure img{
     width: 35px;
     height: 35px;
     cursor: pointer;
 }
 
-.product-info div p:nth-child(1){
+.product-card .product-info div p:nth-child(1){
     font-weight: bold;
     font-size: var(--md);
     margin-bottom: 0.4rem;
 }
 
-.product-info div p:nth-child(2){
+.product-card .product-info div p:nth-child(2){
     font-size: var(--sm);
     margin-top: 0;
     margin-bottom: 0;
@@ -71,7 +71,7 @@ html{
     .cards-container{
         grid-template-columns: repeat(auto-fill,240px);
     }
-
+    
     .product-card{
         width: 240px;
     }
